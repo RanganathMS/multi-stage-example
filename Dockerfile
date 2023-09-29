@@ -1,5 +1,4 @@
 FROM openjdk:8-jdk-alpine as builder
-FROM tomcat:latest
 RUN mkdir -p /app/source
 COPY . /app/source
 WORKDIR /app/source
